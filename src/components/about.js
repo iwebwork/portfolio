@@ -4,7 +4,7 @@ import {Img} from 'react-image'
 const About = () => {
     return (
         <section name="about">
-            <div className="container">
+            <div className="container" style={{marginBottom: '50px'}}>
                 <div className="row justify-content-center">
                     <div className="col-1">
                         
