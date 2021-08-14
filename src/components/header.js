@@ -17,9 +17,9 @@ const Header = () => {
                             <div className="collapse" id="navbarToggleExternalContent">
                                 <div className="p-4">
                                     <h5 className="text-dark h4" style={{cursor: 'context-menu', marginBottom: '15px'}}>About</h5>
+                                    <h5 className="text-dark h4" style={{cursor: 'context-menu', marginBottom: '15px'}}>Skils</h5>
                                     <h5 className="text-dark h4" style={{cursor: 'context-menu', marginBottom: '15px'}}>Profile</h5>
-                                    <h5 className="text-dark h4" style={{cursor: 'context-menu', marginBottom: '15px'}}>Contact</h5>
-                                    <h5 className="text-dark h4" style={{cursor: 'context-menu'}}>Skils</h5>
+                                    <h5 className="text-dark h4" style={{cursor: 'context-menu'}}>Contact</h5>
                                     {/* <span className="text-muted">Toggleable via the navbar brand.</span> */}
                                 </div>
                             </div>
