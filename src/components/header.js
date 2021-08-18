@@ -7,8 +7,7 @@ const Header = () => {
     return (
         <section className="header" style={containerMarginBotton}>
 
-            <nav className="navbar navbar-expand-lg">
-                {/* <a className="navbar-brand" href="#">Navbar</a> */}
+            <nav className="navbar navbar-expand-lg sticky-top">
                 <button className="navbar-toggler nav-style" type="button" data-toggle="collapse" 
                     data-target="#navbarNavheader" aria-controls="navbarNavheader" aria-expanded="false" 
                     aria-label="Toggle navigation"
@@ -16,7 +15,7 @@ const Header = () => {
                 >
                     <FontAwesomeIcon icon={faAlignJustify} size={'lg'} title="Menu"/>
                 </button>
-                <div className="collapse navbar-collapse justify-content-center" id="navbarNavheader" align="center" role="navigation">
+                <div className="collapse navbar-collapse justify-content-around" id="navbarNavheader" align="center" role="navigation">
                     <ul className="navbar-nav">
                         <li className="nav-item active">
                             <a className="nav-link nav-style" href="#about">About</a>
@@ -28,7 +27,6 @@ const Header = () => {
                             <a className="nav-link nav-style" href="#profile">Profile</a>
                         </li>
                     </ul>
-                    
                 </div>
             </nav>
         </section>
