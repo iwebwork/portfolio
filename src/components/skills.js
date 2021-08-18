@@ -1,23 +1,14 @@
 import React from 'react'
 import {containerMarginBotton} from '../constants'
-import Progressbar from './progressBar'
+import {Progressbartwo} from './progressBar'
 
 const Skills = () => {
     return (
         <section name="skills" id="skills">
-            <div className="container" style={containerMarginBotton}>
+            <div className="container-fluid" style={containerMarginBotton}>
                 <div className="row">
-                    <div className="col-4" style={{backgroundColor:'#1234'}}>
-                        <div className="row">
-                            <Progressbar title="JavaScript" width="55"/>
-                        </div>
-                        <div className="row">
-                            <Progressbar title="PHP" width="99"/>
-                        </div>
-                    </div>
-                    <div className="col-4">
-                        
-                    </div>
+                    <Progressbartwo/>
+                
                 </div>
             </div>
         </section>  
