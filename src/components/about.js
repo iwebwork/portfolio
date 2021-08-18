@@ -58,10 +58,9 @@ const MeImage = () => {
                 src="/assets/imgs/euV3.png" 
                 style={{
                     backgroundRepeat:'no-repeat',
-                    maxHeight:'380px',
-                    maxWidth:'28%',
-                    minHeight:'100px',
-                    marginTop:'-10px',
+                    maxWidth:'400px',
+                    maxHeight:'480px',
+                    marginTop:'-25px',
                 }}
             />
 }
