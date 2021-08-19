@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Progressbartwo = () => {
     return (
-        <div className="col-md-3 col-sm-6">
+        <div className="col-3">
             <div className="progress yellow">
                 <span className="progress-left">
                     <span className="progress-bar"></span>

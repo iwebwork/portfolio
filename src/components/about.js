@@ -1,6 +1,5 @@
 import React from 'react'
 import {Img} from 'react-image'
-import {containerMarginBotton} from '../constants'
 
 const About = () => {
     const idade = () => {
@@ -30,10 +29,10 @@ const About = () => {
 
     return (
         <section name="about" id="about">
-            <div className="container-fluid" style={containerMarginBotton}>
+            <div className="container-fluid">
                 
                 <div className="row justify-content-center">
-                    <div className="col-sm-7 style-about" style={{marginBottom:'120px'}}>
+                    <div className="col-sm-7 style-about">
                         <div className="h4">
                             Olá, meu nome é Igor Siqueira da Silva, 
                             eu tenho {idade()} anos, 
@@ -42,7 +41,7 @@ const About = () => {
                         </div>
                     </div>
                     
-                    <div className="row" style={{position:'absolute'}}>
+                    <div className="row">
                         <MeImage/>
                     </div>
                 </div>
@@ -60,7 +59,7 @@ const MeImage = () => {
                     backgroundRepeat:'no-repeat',
                     maxWidth:'400px',
                     maxHeight:'480px',
-                    marginTop:'-25px',
+                    marginTop:'-140px',
                 }}
             />
 }
