@@ -14,12 +14,8 @@ export default class Index extends Component {
                     <Header/>
                     <About/>
                 </div>
-                
-                <section name="skills" id="skills">
-                    <div className="container-fluid">
-                        <Skills/>
-                    </div>
-                </section> 
+                 
+                <Skills/>
                 
                 <Profile/>
                 <Contact/>
