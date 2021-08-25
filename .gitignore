@@ -21,5 +21,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-public/assets/imgs/eu.jpg
-public/assets/imgs/eu.png
+*.png
+*.jpg

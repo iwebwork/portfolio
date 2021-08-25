@@ -41,7 +41,7 @@ const About = () => {
                         </div>
                     </div>
                     
-                    <div className="row">
+                    <div className="row" style={{marginBottom:'40px'}}>
                         <MeImage/>
                     </div>
                 </div>

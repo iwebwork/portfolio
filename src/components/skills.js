@@ -1,148 +1,149 @@
 import React from 'react'
 import {containerMarginBotton} from '../constants'
 
+
 const Skills = () => {
     return (
         <section name="skills" id="skills" style={containerMarginBotton}>
-            <div className="container-fluid" style={{marginTop:'190px', marginBottom:'50px', backgroundColor:'rgb(240 242 243)'}}>
-                <div className="row justify-content-center" style={{marginBottom:'50px', marginTop:'50px'}}>
-                    <div className="col-sm-3 text-center">
-                        Skills
-                    </div>
-                </div> 
-                        
-                <div className="row justify-content-center">
-                    <div className="col-md-4">
-                        <div className="row">
-                            <div className="col">
-                                <img src="assets/imgs/JavaScript-logo-600x375.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>
+            <div className="container-fluid" style={{marginTop:'190px', marginBottom:'50px', backgroundColor:'rgb(240 240 240)'}}> 
+                <div className="row">
+                    <div className="col-lg"  style={{marginTop:'10px'}}>
+                        <div className="card" style={{border:'6px solid #dee2e6'}}>
+                            <div className="card-header text-center">
+                                Linguagens
                             </div>
-                            <div className="col">
-                                <img src="assets/imgs/php.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>
-                            </div>
-                            <div className="col">
-                                <img src="assets/imgs/java.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>
-                            </div>
-                            <div className="col">
-                                <img src="assets/imgs/delphi.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>
-                            </div>
-                            <div className="col">
-                                <img src="assets/imgs/python.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>                    
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <img src="assets/imgs/laravel.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>                      
-                            </div>
-                            <div className="col">
-                                <img src="assets/imgs/react.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>
-                            </div>
-                            <div className="col">
-                                <img src="assets/imgs/nodejs.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>
-                            </div>
-                            <div className="col">
-                                <img src="assets/imgs/mysql.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>
-                            </div>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                                <img src="assets/imgs/postgresql.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>
-                            </div>
-                            <div className="col">
-                                <img src="assets/imgs/firebase.png" className="rounded mx-auto d-block" alt="JavaScript" style={{maxWidth:'90px'}}/>                                                        
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-8 text-center">
-                        <div 
-                            className="row" 
-                            style={ 
-                                {
-                                    borderBottom: '1px dotted black', 
-                                    paddingBottom: '20px',
-                                    marginBottom: '10px'
-                                }
-                            }
-                        >
-                            <div className="col-md rounded">
-                                <div className="row">
-                                    <div className="text-center">
-                                        JavaScript <br/> Conhecimento sólido
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-md text-center">
-                                <div className="row">
-                                    <div className="text-center">
-                                        Php <br/> Conhecimento sólido
-                                    </div>
-                                </div>    
-                            </div>
-                            <div className="col-md text-center">
-                                <div className="text-center">
-                                    Java <br/> Conhecimento Intermediário
-                                </div>    
-                            </div>
-                            <div className="col-md text-center">
-                                Delphi <br/> Conhecimento Intermediário
-                            </div>
-                            <div className="col-md text-center">
-                                Python <br/> Conhecimento Básico
+                            <div className="card-body">
+                                <table className="table">
+                                    <thead className="bg-light">
+                                        <tr>
+                                            <th scope="col">N°</th>
+                                            <th scope="col">nome</th>
+                                            <th scope="col">nivel</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Php</td>
+                                            <td>Conhecimento Solido</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>JavaScript</td>
+                                            <td>Conhecimento Solido</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Java</td>
+                                            <td>Conhecimento Intermediário</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Delphi</td>
+                                            <td>Conhecimento Intermediário</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>Python</td>
+                                            <td>Conhecimento Basico</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>C#</td>
+                                            <td>Conhecimento Básico</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-                        {/* <div className="row justify-content-center" style={{ marginBottom:'50px'}}>
-                            <div className="col-md-3 text-center">
+                    </div>    
+                    <div className="col-lg" style={{marginTop:'10px'}}>
+                        <div className="card" style={{border:'6px solid #dee2e6'}}>
+                            <div className="card-header text-center">
                                 Frameworks/Tecnologias
                             </div>
-                        </div>   */}
-                        <div className="row" style={
-                            {
-                                borderBottom: '1px dotted black', 
-                                paddingBottom: '20px',
-                                marginBottom: '10px'
-                            }
-                        }>
-                            <div className="col-md text-center">
-                                Laravel <br/> Conhecimento Básico
-                            </div>
-                            <div className="col-md text-center">
-                                React <br/> Conhecimento Intermediário
-                            </div>
-                            <div className="col-md text-center">
-                                React Native <br/> Conhecimento Intermediário
-                            </div>
-                            <div className="col-md text-center">
-                                Nodejs <br/> Conhecimento Sólido
+                            <div className="card-body">
+                                <table className="table">
+                                    <thead className="bg-light">
+                                        <tr>
+                                            <th scope="col">N°</th>
+                                            <th scope="col">nome</th>
+                                            <th scope="col">nivel</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Node</td>
+                                            <td>Conhecimento Solido</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>React Native</td>
+                                            <td>Conhecimento Solido</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>Bootstrap</td>
+                                            <td>Conhecimento Solido</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>Laravel</td>
+                                            <td>Conhecimento Intermediário</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">5</th>
+                                            <td>React</td>
+                                            <td>Conhecimento Intermediário</td>
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-                        
-                        {/* <div className="row justify-content-center" style={{ marginBottom:'50px'}}>
-                            <div className="col-md-3 text-center">
+                    </div>        
+                    <div className="col-lg" style={{marginTop:'10px'}}>
+                        <div className="card" style={{border:'6px solid #dee2e6'}}>
+                            <div className="card-header text-center">
                                 DataBases
                             </div>
-                        </div>   */}
-                        <div className="row" style={
-                            {
-                                borderBottom: '1px dotted black', 
-                                paddingBottom: '20px',
-                                marginBottom: '10px'
-                            }
-                        }>
-                            <div className="col-md text-center">
-                                MySql <br/> Conhecimento Sólido
-                            </div>
-                            <div className="col-md text-center">
-                                PostgreSQL <br/> Conhecimento Intermediário
-                            </div>
-                            <div className="col-md text-center">
-                                MongoDb <br/> Conhecimento Básico
-                            </div>
-                            <div className="col-md text-center">
-                                Firebase <br/> Conhecimento Sólido
+                            <div className="card-body">
+                                <table className="table">
+                                    <thead className="bg-light">
+                                        <tr>
+                                            <th scope="col">N°</th>
+                                            <th scope="col">nome</th>
+                                            <th scope="col">nivel</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>Mysql</td>
+                                            <td>Conhecimento Solido</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>Firebase</td>
+                                            <td>Conhecimento Solido</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>PostgreSQL</td>
+                                            <td>Conhecimento Intermediário</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">4</th>
+                                            <td>MongoDb</td>
+                                            <td>Conhecimento Intermediário</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-                    </div>
-                </div>  
+                    </div>       
+                </div>   
             </div>
         </section>
     )

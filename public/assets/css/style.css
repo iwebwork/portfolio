@@ -30,7 +30,7 @@ body{
     background-repeat: no-repeat !important;
     background-size: cover;
     transform: translate3d(0px, 0px, 0px);
-    max-height: 400px;
+    max-height: 450px;
     max-width: 100%;
     z-index: -1;
 }

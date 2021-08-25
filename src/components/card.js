@@ -4,7 +4,7 @@ import {Img} from 'react-image'
 const card = (props) => {
     return (
         <div className="col-sm-4">
-            <div className="card" style={{border:'6px solid #dee2e6'}}>
+            <div className="card" style={{border:'6px solid #dee2e6',marginTop:'10px'}}>
                 <div className="card-header text-center">
                     {props.img 
                     ?
@@ -14,7 +14,11 @@ const card = (props) => {
                     }
                 </div>
                 <div className="card-body">
-                    {props.body}
+                    {
+                        props.body
+                        ? props.body
+                        : () => {return(props.table)}
+                    }
                     
                 </div>
                 <div className="card-rodape d-flex justify-content-around">
@@ -25,7 +29,7 @@ const card = (props) => {
                                 ?
                                     <a target="_blank" className="text-center" href={props.repo} style={{textDecoration: 'none'}}>
                                         <div className="col-sm btnCard h5" style={{color:'#000000'}}>
-                                            Git
+                                            {props.textLink}
                                         </div>
                                     </a>
                                 : null
