@@ -45,13 +45,13 @@ body{
 
 }
 
-.btnCard:hover{
+/* .btnCard:hover{
     color: rgb(102, 102, 109) !important;
-}
+} */
 
 .btn-card-style{
     padding: 10px;
 }
-.btn-card-style:hover{
+/* .btn-card-style:hover{
     background-color: #e6e0d8;
-}
+} */

@@ -4,7 +4,7 @@ import {Img} from 'react-image'
 const card = (props) => {
     return (
         <div className="col-sm-4">
-            <div className="card" style={{border:'6px solid #dee2e6',marginTop:'10px'}}>
+            <div className="card" style={{border:'0px '}}>
                 <div className="card-header text-center">
                     {props.img 
                     ?
@@ -22,16 +22,17 @@ const card = (props) => {
                     
                 </div>
                 <div className="card-rodape d-flex justify-content-around">
-                    <div className="container">
-                        <div className="row justify-content-center btn-card-style">
+                    <div className="container align-items-center">
+                        <div className="row btn-card-style">
                             {
                                 props.repo
                                 ?
-                                    <a target="_blank" className="text-center" href={props.repo} style={{textDecoration: 'none'}}>
-                                        <div className="col-sm btnCard h5" style={{color:'#000000'}}>
-                                            {props.textLink}
-                                        </div>
-                                    </a>
+                                <a  class="btn btn-warning" target="_blank" className="text-center" href={props.repo} style={{textDecoration: 'none'}}>
+                                    <button className="col-sm btnCard h5 btn btn-warning " style={{color:'#000000'}}>
+                                        {props.textLink}
+                                    </button>
+
+                                </a>
                                 : null
                                     
                             }

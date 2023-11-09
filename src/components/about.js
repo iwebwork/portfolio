@@ -34,10 +34,10 @@ const About = () => {
                 <div className="row justify-content-center">
                     <div className="col-sm-7 style-about">
                         <div className="h4">
-                            Olá, meu nome é Igor Siqueira da Silva, 
-                            eu tenho {idade()} anos, 
-                            sou apaixonado por tecnologia com foco em desenvolvimento back-end,
-                            e com objetivo de se tornar full-stack.
+                            Hello, my name is Igor Siqueira da Silva, 
+                            I am {idade()} years old, 
+                            I am passionate about technology with a focus on back-end development,
+                            and aiming to become full-stack.
                         </div>
                     </div>
                     
@@ -54,12 +54,12 @@ const MeImage = () => {
     return <Img 
                 className="mx-auto d-block rounded-circle" 
                 alt="Responsive image" 
-                src="/assets/imgs/euV3.png" 
+                src="/assets/imgs/eu.png" 
                 style={{
                     backgroundRepeat:'no-repeat',
-                    maxWidth:'400px',
-                    maxHeight:'480px',
-                    marginTop:'-140px',
+                    maxWidth:'200px',
+                    maxHeight:'280px',
+                    marginTop:'-10px'
                 }}
             />
 }
