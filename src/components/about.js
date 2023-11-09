@@ -34,7 +34,7 @@ const About = () => {
                 <div className="row justify-content-center">
                     <div className="col-sm-7 style-about">
                         <div className="h4">
-                            Hello, my name is Igor Siqueira da Silva, 
+                            Hello, my name is Igor Siqueira de Souza, 
                             I am {idade()} years old, 
                             I am passionate about technology with a focus on back-end development,
                             and aiming to become full-stack.
