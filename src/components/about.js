@@ -57,8 +57,8 @@ const MeImage = () => {
                 src="/assets/imgs/eu.png" 
                 style={{
                     backgroundRepeat:'no-repeat',
-                    maxWidth:'200px',
-                    maxHeight:'280px',
+                    maxWidth:'800px',
+                    maxHeight:'880px',
                     marginTop:'-10px'
                 }}
             />

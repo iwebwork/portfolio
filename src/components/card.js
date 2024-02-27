@@ -3,8 +3,8 @@ import {Img} from 'react-image'
 
 const card = (props) => {
     return (
-        <div className="col-sm-4">
-            <div className="card" style={{border:'0px '}}>
+        <div className="col-sm-4 mb-3">
+            <div className="card h-100" style={{border:'0px '}}>
                 <div className="card-header text-center">
                     {props.img 
                     ?

@@ -34,22 +34,22 @@ const Skills = () => {
                                         </tr>
                                         <tr>
                                             <th scope="row">3</th>
-                                            <td>Java</td>
-                                            <td>Intermediate Knowledge</td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">4</th>
                                             <td>Delphi</td>
                                             <td>Intermediate Knowledge</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">5</th>
+                                            <th scope="row">4</th>
                                             <td>Python</td>
                                             <td>Basic Knowledge</td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">6</th>
+                                            <th scope="row">5</th>
                                             <td>C#</td>
+                                            <td>Basic Knowledge</td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">6</th>
+                                            <td>Java</td>
                                             <td>Basic Knowledge</td>
                                         </tr>
                                     </tbody>

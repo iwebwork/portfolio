@@ -30,7 +30,7 @@ const Contact = () => {
             </div>
             <div className="row">
                 <div className="col-12 text-center">
-                    @ Todos os direito reservados - Igor Siqueira da Silva - {moment().format('DD/MM/YYYY')}
+                    @ Todos os direito reservados - Igor Siqueira de Souza - {moment().format('DD/MM/YYYY')}
                 </div>
             </div>
         </div>
