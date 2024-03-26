@@ -1,5 +1,5 @@
 import React from 'react'
-import {Img} from 'react-image'
+//import {Img} from 'react-image'
 
 const card = (props) => {
     return (
@@ -8,7 +8,8 @@ const card = (props) => {
                 <div className="card-header text-center">
                     {props.img 
                     ?
-                        <Img src={props.img} className="card-img-top center" alt="Exemplo" style={{maxHeight:'200px', maxWidth:'200px'}}/>
+                        <image src={props.img} className="card-img-top center" alt="Exemplo" style={{maxHeight:'200px', maxWidth:'200px'}}/>
+                        //<Img src={props.img} className="card-img-top center" alt="Exemplo" style={{maxHeight:'200px', maxWidth:'200px'}}/>
                     :
                         <div>{props.projectName}</div>
                     }
@@ -27,7 +28,7 @@ const card = (props) => {
                             {
                                 props.repo
                                 ?
-                                <a  class="btn btn-warning" target="_blank" className="text-center" href={props.repo} style={{textDecoration: 'none'}}>
+                                <a  className="btn btn-warning text-center" target="_blank" rel="noopener noreferrer" href={props.repo} style={{textDecoration: 'none'}}>
                                     <button className="col-sm btnCard h5 btn btn-warning " style={{color:'#000000'}}>
                                         {props.textLink}
                                     </button>

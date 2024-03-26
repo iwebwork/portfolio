@@ -1,5 +1,5 @@
 import React from 'react'
-import {Img} from 'react-image'
+import eu from './img/eu.png';
 
 const About = () => {
     const idade = () => {
@@ -51,17 +51,15 @@ const About = () => {
 }
 
 const MeImage = () => {
-    return <Img 
-                className="mx-auto d-block rounded-circle" 
-                alt="Responsive image" 
-                src="/assets/imgs/eu.png" 
+    return( <img className="mx-auto d-block rounded-circle" 
                 style={{
-                    backgroundRepeat:'no-repeat',
+                    maxHeight:'800px',
                     maxWidth:'800px',
-                    maxHeight:'880px',
-                    marginTop:'-10px'
-                }}
-            />
+                    marginTop:'-10px'       
+                }} 
+                alt='Eu'
+                src={eu}
+            />)
 }
 
 export default About

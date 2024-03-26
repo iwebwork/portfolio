@@ -1,0 +1,117 @@
+{
+    "Skills": [
+        {
+            "Languages": [
+                {
+                    "Number": 1,
+                    "Name": "PHP",
+                    "Level": "Solid Knowledge"
+                },
+                {
+                    "Number": 2,
+                    "Name": "JavaScript",
+                    "Level": "Solid Knowledge"
+                },
+                {
+                    "Number": 3,
+                    "Name": "Delphi",
+                    "Level": "Intermediate Knowledge"
+                },
+                {
+                    "Number": 4,
+                    "Name": "C#",
+                    "Level": "Intermediate Knowledge"
+                },
+                {
+                    "Number": 5,
+                    "Name": "Python",
+                    "Level": "Basic Knowledge"
+                },
+                {
+                    "Number": 6,
+                    "Name": "Java",
+                    "Level": "Basic Knowledge"
+                }
+            ]
+        },
+        {
+            "FrameworksTechnologies": [
+                {
+                    "Number": 1,
+                    "Name": "Node",
+                    "Level": "Solid Knowledge"
+                },
+                {
+                    "Number": 2,
+                    "Name": "React Native",
+                    "Level": "Solid Knowledge"
+                },
+                {
+                    "Number": 3,
+                    "Name": "Bootstrap",
+                    "Level": "Solid Knowledge"
+                },
+                {
+                    "Number": 4,
+                    "Name": "React",
+                    "Level": "Intermediate Knowledge"
+                },
+                {
+                    "Number": 5,
+                    "Name": "Laravel",
+                    "Level": "Intermediate Knowledge"
+                }
+            ]
+        },
+        {
+            "DataBases": [
+                {
+                    "Number": 1,
+                    "Name": "MySQL",
+                    "Level": "Solid Knowledge"
+                },
+                {
+                    "Number": 2,
+                    "Name": "Firebase",
+                    "Level": "Solid Knowledge"
+                },
+                {
+                    "Number": 3,
+                    "Name": "PostgreSQL",
+                    "Level": "Intermediate Knowledge"
+                },
+                {
+                    "Number": 4,
+                    "Name": "MongoDb",
+                    "Level": "Intermediate Knowledge"
+                }
+            ]
+        }
+    ],
+    "Profile":[
+        {
+            "projectName":"Project Lambe lambe",
+            "body":"A clone of instagram, a mobile application created to serve as a learning experience. The React-Native framework was used as the development base, and Firebase as the database.",
+            "repo":"https://github.com/iwebwork/projectLambe",
+            "textLink":"GitHub Repo"
+        },
+        {
+            "projectName":"Project Tasks",
+            "body":"A to-do list, a mobile app created to serve as a learning experience. The React-Native framework was used as the development base and Postgresql as the database.",
+            "repo":"https://github.com/iwebwork/iwebwork-TasksWithReactNative",
+            "textLink":"GitHub Repo"
+        },
+        {
+            "projectName":"Doe Fácil",
+            "body":"Project created in group, and was used as a school presentation. Php was used in the back-end, html, css and javaScript in the front-end together with MySql as a database.",
+            "repo":"https://github.com/iwebwork/pi2019PrimeiroSemestre",
+            "textLink":"GitHub Repo"
+        },
+        {
+            "projectName":"Artificial intelligence for identifies the use of masks in the prevention of COVID-19",
+            "body":"Pesquisa desenvolvida em grupo, foi aprovada pela Atena Editora (Especializada na publicação de livros e coletâneas de artigos científicos.)",
+            "repo":"https://www.atenaeditora.com.br/post-artigo/52691",
+            "textLink":"Link"
+        }
+    ]
+}                
